@@ -29,6 +29,7 @@ Here is the list of libraries you need to install to execute the code:
 - matplotlib
 - scikit-image
 - jupyter
+- pillow==4.1.1
 
 All of them can be installed via `conda` (`anaconda`), e.g.
 ```

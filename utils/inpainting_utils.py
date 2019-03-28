@@ -5,7 +5,9 @@ import PIL.ImageFont as ImageFont
 from .common_utils import *
 
 def get_text_mask(for_image, sz=20):
-    font_fname = '/usr/share/fonts/truetype/freefont/FreeSansBold.ttf'
+    #font_fname = '/usr/share/fonts/truetype/freefont/FreeSansBold.ttf'
+    font_fname = 'D:/src/deep-image-prior/fonts/msyh.ttc'
+
     font_size = sz
     font = ImageFont.truetype(font_fname, font_size)
 
